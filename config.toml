@@ -1,26 +1,26 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://www.example.com/"
+baseURL = "https://epicoursebogota.netlify.com"
 languageCode = "en-AU"
-title = "My Awesome Title"
+title = "Epidemics analysis short course"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Thibaut Jombart"
+  description = "Website of the RECON short course on epidemics analysis and response, Bogota, December 2017"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/hero_bg.jpg"
-  title = "Create awesome things for better web"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  img = "images/univ_bogota.jpg"
+  title = "Short course on Epidemics Analysis and Response"
+  description = "Bogota, 11-15 December 2017"
 
 # Navigation section
 [params.nav]
-  mission = "Our Mission"
-  services = "Services"
-  team = "The Team"
-  contact = "Get In Touch"
+  mission = "Practical info"
+  services = "Content"
+  team = "Teachers"
+  contact = "Register"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
@@ -32,76 +32,91 @@ title = "My Awesome Title"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/compass.jpg"
     [[params.mission.images.list]]
-      img = "images/img_2.jpg"
+      img = "images/img_4.jpg"
     [[params.mission.images.list]]
       img = "images/img_1.jpg"
     [[params.mission.images.list]]
-      img = "images/img_4.jpg"
+      img = "images/calendar.jpg"
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    name = "location"
+    title = "Location"
+    subtitle = 'The course will be hosted at the Universidad Nacional de Colombia, Bogota. The exact location will be confirmed closer to the event.'
+    description = '<p>Here is a map of the campus:<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7524465035945!2d-74.08623508491984!3d4.638193796630703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd14943c13b%3A0x3de530667d9ff6b0!2sUniversidad+Nacional+de+Colombia!5e0!3m2!1sen!2suk!4v1507557470825" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>'
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
-    subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+    name = "date"
+    title = "Date"
+    subtitle = "The course will take place over 5 days, 11-15 December 2017"
+    description = ""
 
-  [[params.mission.item]]
-    weight = 3
-    name = "strategy"
-    title = "Strategy"
-    subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+  # [[params.mission.item]]
+  #   weight = 3
+  #   name = "strategy"
+  #   title = "Strategy"
+  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
+  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
-  title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  title = "Content of the course"
+  description = "The course will include lectures during the mornings and hands-on practical in the afternoon. All practicals will be using the R software. A basic knowledge of R will be assumed from the participants."
+
+  # [[params.services.item]]
+  #   icon = "icon-present"
+  #   title = "Web Development"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.services.item]]
-    icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Opening seminar - Monday 11/12/2017"
+    description = "<p><b>Morning (open to public)</b><br>On the roles of statistics and modelling for informing outbreak response: examples from the West African Ebola outbreak and from the Zika epidemic.</p>"
 
   [[params.services.item]]
-    icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Day 1 - Monday 11/12/2017"
+    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
+  [[params.services.item]]
+    icon = ""
+    title = "Day 1 - Monday 11/12/2017"
+    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
+  [[params.services.item]]
+    icon = ""
+    title = "Day 1 - Monday 11/12/2017"
+    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
 
   [[params.services.item]]
-    icon = "icon-paper-plane"
-    title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Day 2 - Tuesday 12/12/2017"
+    description = "<p><b>Morning (lecture)</b><br>Modelling epidemics using compartmental models 1: ‘simple’ models for directly transmitted diseases.</p> <p><b>Afternoon (practical)</b><br>Modelling an Ebola outbreak and the impact of control strategies. R packages:<i> odin, DeSolve</i></p><br><br>"
 
   [[params.services.item]]
-    icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Day 3 - Wednesday 13/12/2017"
+    description = "<p><b>Morning (lecture)</b><br>Modelling epidemics using compartmental models 2: applications to vector-borne diseases.</p><br><p><b>Afternoon (practical)</b><br>Using compartmental models to model the spread of arboviruses. R packages: <i>odin, DeSolve</i></p><br><br>"
+
 
   [[params.services.item]]
-    icon = "icon-rocket"
-    title = "Load Fast"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Day 4 - Thursday 14/12/2017"
+    description = "<p><b>Morning (lecture)</b><br>Using genetic sequences for inferring infectious disease dynamics.</p> <p><b>Afternoon (practical)</b><br>Introduction to phylogenetics using seasonal influenza, and disease outbreak reconstruction using epidemiological and genetic data. R packages: <i>ape, phangorn, outbreaker2</i></p>"
 
   [[params.services.item]]
-    icon = "icon-support"
-    title = "Customer Support"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    icon = ""
+    title = "Day 5 - Friday 15/12/2017"
+    description = "<p><b>Grant writing exercise</b><br>Participants will assemble into multidisciplinary teams, typically mixing public health officers, epidemiologists and methodologists, to formulate new projects in view of a grant application. The event will conclude with presentations of the projects and feedback from the panel.</p>"
+
 
 # Work section
 [params.work]
-  enable = true
+  enable = false
 
   [[params.work.item]]
     title = "Consectetur adipisicing"
@@ -147,12 +162,12 @@ title = "My Awesome Title"
 [params.team]
   enable = true
   title = "Meet The Team"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "This short course is organised in collaboration between the University of Colombia, Imperial College London, and the University of Sussex. Meet our teaching team below."
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    name = "Thibaut Jombart"
+    position = "Lecturer, Imperial College London"
+    description = "Genetic epidemiology and outbreak response. Head of the R Epidemics Consortium (RECON)."
     img = "images/person1.jpg"
     facebook = "#"
     twitter = "#"
@@ -161,8 +176,19 @@ title = "My Awesome Title"
     github = "#"
 
   [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
+    name = "Liliana Lopez-Kleine"
+    position = "Professor, University Nacional de Colombia"
+    description = "Multivariate analysis and exploratory statistics."
+    img = "images/person2.jpg"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+
+  [[params.team.item]]
+    name = "Pierre Nouvellet"
+    position = "Reader, University of Sussex"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person2.jpg"
     facebook = "#"
@@ -172,8 +198,8 @@ title = "My Awesome Title"
     github = "#"
 
   [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
+    name = " Zulma Cucunubá"
+    position = "Research fellow, Imperial College London"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person3.jpg"
     facebook = "#"
