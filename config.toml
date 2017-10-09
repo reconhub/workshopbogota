@@ -12,8 +12,8 @@ title = "Epidemics analysis short course"
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/univ_bogota.jpg"
-  title = "Short course on Epidemics Analysis and Response"
-  description = "Bogota, 11-15 December 2017"
+  title = "Epidemics Analysis, Modelling and Response"
+  description = "Short Course, Bogota, 11-15 December 2017"
 
 # Navigation section
 [params.nav]
@@ -45,7 +45,7 @@ title = "Epidemics analysis short course"
     name = "location"
     title = "Location"
     subtitle = 'The course will be hosted at the Universidad Nacional de Colombia, Bogota. The exact location will be confirmed closer to the event.'
-    description = '<p>Here is a map of the campus:<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7524465035945!2d-74.08623508491984!3d4.638193796630703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd14943c13b%3A0x3de530667d9ff6b0!2sUniversidad+Nacional+de+Colombia!5e0!3m2!1sen!2suk!4v1507557470825" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>'
+    description = '<p>Here is a map of the campus:<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7524465035945!2d-74.08623508491984!3d4.638193796630703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd14943c13b%3A0x3de530667d9ff6b0!2sUniversidad+Nacional+de+Colombia!5e0!3m2!1sen!2suk!4v1507557470825" width="450" height="450" frameborder="1" style="border:0" allowfullscreen></iframe></p>'
 
   [[params.mission.item]]
     weight = 2
@@ -54,12 +54,12 @@ title = "Epidemics analysis short course"
     subtitle = "The course will take place over 5 days, 11-15 December 2017"
     description = ""
 
-  # [[params.mission.item]]
-  #   weight = 3
-  #   name = "strategy"
-  #   title = "Strategy"
-  #   subtitle = "Magnam iste obcaecati illo laboriosam amet. Dignissimos sed quis voluptatum corporis adipisci amet."
-  #   description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio dolore illum expedita placeat debitis, dignissimos obcaecati et modi. Possimus id dicta consequuntur veritatis, reiciendis at expedita voluptate sint distinctio eligendi!</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline'>Get In Touch</a></p>"
+  [[params.mission.item]]
+    weight = 3
+    name = "register"
+    title = "Register"
+    subtitle = "Please use the google form below to register"
+    description = '<p>To register for the short course, you need to send your application the google form below <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?usp=sf_link">[full page]</a>:</p><br><p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?embedded=true" width="450" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>'
 
 # Services section
 [params.services]
@@ -67,7 +67,7 @@ title = "Epidemics analysis short course"
   video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Content of the course"
-  description = "The course will include lectures during the mornings and hands-on practical in the afternoon. All practicals will be using the R software. A basic knowledge of R will be assumed from the participants."
+  description = "The course will provide an introduction to modelling and statistical techniques for analysing infectious disease epidemics. The methods presented will include tools for visualising epicurves, estimating transmissibility, deriving short term predictions of incidence, modelling infectious disease dynamics and assessing the impact of intervention strategies. The course will consist of lectures during the mornings and hands-on practical in the afternoon. All practicals will be using the R software. A basic knowledge of R will be assumed from the participants."
 
   # [[params.services.item]]
   #   icon = "icon-present"
@@ -79,14 +79,6 @@ title = "Epidemics analysis short course"
     title = "Opening seminar - Monday 11/12/2017"
     description = "<p><b>Morning (open to public)</b><br>On the roles of statistics and modelling for informing outbreak response: examples from the West African Ebola outbreak and from the Zika epidemic.</p>"
 
-  [[params.services.item]]
-    icon = ""
-    title = "Day 1 - Monday 11/12/2017"
-    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
-  [[params.services.item]]
-    icon = ""
-    title = "Day 1 - Monday 11/12/2017"
-    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
   [[params.services.item]]
     icon = ""
     title = "Day 1 - Monday 11/12/2017"
@@ -133,31 +125,6 @@ title = "Epidemics analysis short course"
     subtitle = "Web Design"
     img = "images/img_3.jpg"
 
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_2.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_3.jpg"
-
-  [[params.work.item]]
-    title = "Consectetur adipisicing"
-    subtitle = "Web Design"
-    img = "images/img_4.jpg"
-
 # Team section
 [params.team]
   enable = true
@@ -165,48 +132,50 @@ title = "Epidemics analysis short course"
   description = "This short course is organised in collaboration between the University of Colombia, Imperial College London, and the University of Sussex. Meet our teaching team below."
 
   [[params.team.item]]
+    name = "Liliana Lopez-Kleine"
+    position = "Professor, University Nacional de Colombia"
+    description = "Multivariate analysis, exploratory statistics, bioinformatics and system biology."
+    img = "images/liliana.png"
+    # facebook = "#"
+    # twitter = "#"
+    # github = "#"
+
+
+  [[params.team.item]]
     name = "Thibaut Jombart"
     position = "Lecturer, Imperial College London"
     description = "Genetic epidemiology and outbreak response. Head of the R Epidemics Consortium (RECON)."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  [[params.team.item]]
-    name = "Liliana Lopez-Kleine"
-    position = "Professor, University Nacional de Colombia"
-    description = "Multivariate analysis and exploratory statistics."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+    img = "images/thibaut.jpg"
+    # dribbble = "#"
+    github = "https://github.com/thibautjombart"
+    twitter = "https://twitter.com/TeebzR"
 
   [[params.team.item]]
     name = "Pierre Nouvellet"
     position = "Reader, University of Sussex"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+    description = "Infectious disease modelling and outbreak response, with emphasis in zoonosis and emerging threats. "
+    img = "images/pierre.jpg"
+    # facebook = "#"
+    # twitter = "#"
+    github = "https://github.com/pnouvellet"
 
   [[params.team.item]]
-    name = " Zulma Cucunubá"
-    position = "Research fellow, Imperial College London"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+    name = "Zulma Cucunubá"
+    position = "Research Associate, Imperial College London"
+    description = "Modelling tropical disease dynamics and interventions. Member of the Vaccine Impact Modelling Consortium."
+    img = "images/zulma.jpg"
+    # facebook = "#"
+    # twitter = "#"
+    # github = "#"
+
+  [[params.team.item]]
+    name = "James Hayward"
+    position = "Senior Administrator, Imperial College London"
+    description = "Head administrator for the NIHR-HPRU, and logistics guru for the short course."
+    img = "images/james.jpg"
+    # facebook = "#"
+    # twitter = "#"
+    # github = "#"
 
   # [[params.team.item]]
   #   name = "Jason Doe"
@@ -221,19 +190,14 @@ title = "Epidemics analysis short course"
 
 # Contact section
 [params.contact]
-  enable = true
-  title = "Get In Touch"
-  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  enable = false
+  title = "Register"
+  message = "Bla bla bla"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
-  github = "#"
-  twitter = "#"
-  facebook = "#"
-  vine = "#"
-  linkedin = "#"
-  instagram = "#"
+  note = "<p><small>This course is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  github = "https://github.com/reconhub/workshopbogota"
   
