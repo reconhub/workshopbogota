@@ -11,7 +11,7 @@ title = "Epidemics analysis short course"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/univ_bogota.jpg"
+  img = "images/bg_bogota.jpg"
   title = "Epidemics Analysis, Modelling and Response"
   description = "Short Course, Bogota, 11-15 December 2017"
 
@@ -76,35 +76,66 @@ title = "Epidemics analysis short course"
 
   [[params.services.item]]
     icon = ""
-    title = "Opening seminar - Monday 11/12/2017"
-    description = "<p><b>Morning (open to public)</b><br>On the roles of statistics and modelling for informing outbreak response: examples from the West African Ebola outbreak and from the Zika epidemic.</p>"
+    title = "R refresher"
+    description = "<p><b>Monday 11/12/2017 7:00 - Statistics Department UNAL, room 208</b></p><p>Practical introduction to R. Non-experienced R users are required to attend this session.</p><br><br>"
+
+[[params.services.item]]
+    icon = ""
+    title = "Opening seminar (public)"
+    description = "<p><b>Monday 11/12/2017 10:00<br>Facluty of Science UNAL, Juan Herkrath auditorium</b></p><p>On the roles of statistics and modelling for informing outbreak response: examples from the West African Ebola outbreak and from the Zika epidemic.</p>"
 
   [[params.services.item]]
     icon = ""
-    title = "Day 1 - Monday 11/12/2017"
-    description = "<p><b>Morning (lecture)</b><br> An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p> <p><b>Afternoon (practical)</b><br> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
+    title = "Lecture 1"
+    description = "<p><b>Monday 11/12/2017 13:00<br>Statistics Department UNAL, room 209</b></p><p>An introduction to infectious disease outbreak response: what data, what questions, and how to answer them?</p><br><br>"
+
+ [[params.services.item]]
+    icon = ""
+    title = "Practical 1"
+    description = "<p><b>Monday 11/12/2017 15:00<br>Statistics Department UNAL, room 208</b><p> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
 
   [[params.services.item]]
     icon = ""
-    title = "Day 2 - Tuesday 12/12/2017"
-    description = "<p><b>Morning (lecture)</b><br>Modelling epidemics using compartmental models 1: ‘simple’ models for directly transmitted diseases.</p> <p><b>Afternoon (practical)</b><br>Modelling an Ebola outbreak and the impact of control strategies. R packages:<i> odin, DeSolve</i></p><br><br>"
+    title = "Lecture 2"
+    description = "<p><b>Tuesday 12/12/2017 10:00<br>Statistics Department UNAL- room 209</b></p>Modelling epidemics using compartmental models 1: ‘simple’ models for directly transmitted diseases.</p>"
 
   [[params.services.item]]
     icon = ""
-    title = "Day 3 - Wednesday 13/12/2017"
-    description = "<p><b>Morning (lecture)</b><br>Modelling epidemics using compartmental models 2: applications to vector-borne diseases.</p><br><p><b>Afternoon (practical)</b><br>Using compartmental models to model the spread of arboviruses. R packages: <i>odin, DeSolve</i></p><br><br>"
+    title = "Practical 2"
+    description = "<p><b>Tuesday 12/12/2017 13:00<br>Statistics Department UNAL- room 208</b></p><p>Modelling an Ebola outbreak and the impact of control strategies. R packages:<i> odin, DeSolve</i></p><br><br>"
+
+  [[params.services.item]]
+    icon = ""
+    title = "Lecture 3"
+    description = "<p><b>Wednesday 13/12/2017 10:00<br>Statistics Department UNAL- room 209</b></p><p>Modelling epidemics using compartmental models 2: applications to vector-borne diseases.</p>"
+
+  [[params.services.item]]
+    icon = ""
+    title = "Practical 3"
+    description = "<p><b>Wednesday 13/12/2017 13:00<br>Statistics Department UNAL- room 208</b></p><p>Using compartmental models to model the spread of arboviruses. R packages: <i>odin, DeSolve</i></p>"
+
+  [[params.services.item]]
+    icon = ""
+    title = "Social event"
+    description = "<p><b>Wednesday 13/12/2017 evening</b></p><p>Dinner with the participants. Venue and time will be confirmed closer to the event.</p><br><br><br>"
+
+  [[params.services.item]]
+    icon = ""
+    title = "Lecture 4"
+    description = "<p><b>Thursday 14/12/2017 10:00<br>Statistics Department UNAL- room 209</b></p><p>Using genetic sequences for inferring infectious disease dynamics.</p>"
+
+  [[params.services.item]]
+    icon = ""
+    title = "Practical 4"
+    description = "<p><b>Thursday 14/12/2017 13:00<br>Statistics Department UNAL- room 208</b></p><p>Introduction to phylogenetics, and disease outbreak reconstruction using epidemiological and genetic data. R packages: <i>ape, phangorn, outbreaker2</i></p>"
 
 
   [[params.services.item]]
     icon = ""
-    title = "Day 4 - Thursday 14/12/2017"
-    description = "<p><b>Morning (lecture)</b><br>Using genetic sequences for inferring infectious disease dynamics.</p> <p><b>Afternoon (practical)</b><br>Introduction to phylogenetics using seasonal influenza, and disease outbreak reconstruction using epidemiological and genetic data. R packages: <i>ape, phangorn, outbreaker2</i></p>"
+    title = "Grant writing exercise"
+    description = "<p><b>Friday 15/12/2017 10:00<br>Statistics Department UNAL- room 208</b></p><p>Participants will assemble into multidisciplinary teams, typically mixing public health officers, epidemiologists and methodologists, to formulate new projects in view of a grant application. The event will conclude with presentations of the projects and feedback from the panel.</p>"
 
-  [[params.services.item]]
-    icon = ""
-    title = "Day 5 - Friday 15/12/2017"
-    description = "<p><b>Grant writing exercise</b><br>Participants will assemble into multidisciplinary teams, typically mixing public health officers, epidemiologists and methodologists, to formulate new projects in view of a grant application. The event will conclude with presentations of the projects and feedback from the panel.</p>"
-
+ 
 
 # Work section
 [params.work]
@@ -129,7 +160,7 @@ title = "Epidemics analysis short course"
 [params.team]
   enable = true
   title = "Meet The Team"
-  description = "This short course is organised in collaboration between the University of Colombia, Imperial College London, and the University of Sussex. Meet our teaching team below."
+  description = "This short course is organised in collaboration between the National University of Colombia, Imperial College London, and the University of Sussex. Meet our teaching team below."
 
   [[params.team.item]]
     name = "Liliana Lopez-Kleine"
@@ -198,6 +229,6 @@ title = "Epidemics analysis short course"
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
   enable = true
-  note = "<p><small>This course is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  note = "<p><small>This course is co-funded by the Medical Research Council (MRC) Centre for Outbreak Analysis and Modelling, and the National Institute for Health Research - Health Protection Research Unit (NIHR-HPRU) for Modelling Methodology</small></p><p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a> Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a>. Website by <a href='https://sites.google.com/site/thibautjombart/'>Thibaut Jombart</a>.</small></p>"
   github = "https://github.com/reconhub/workshopbogota"
   
