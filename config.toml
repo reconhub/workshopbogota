@@ -59,7 +59,23 @@ title = "Epidemics analysis short course"
     name = "register"
     title = "Register"
     subtitle = "Please use the google form below to register"
-    description = '<p>To register for the short course, you need to send your application the google form below <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?usp=sf_link">[full page]</a>:</p><br><p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?embedded=true" width="450" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>'
+    description = '<p>To register for the short course, you need to send your application the google form below <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?usp=sf_link">[full page]</a>:</p><br><p><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfJXzgrRid4HuUbvBr2Qkw8JvFAyP2lpfCxxvE43i-cA3NXqw/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></p>'
+ 
+  [[params.mission.item]]
+    weight = 4
+    name = "contact"
+    title = "Contact"
+    subtitle = "If you would like to register for the course, please go to the 'register' section and use the form provided. To ask questions about the course, use the contacts provided below."
+    description = "<p><ul><li>contact Bogota: <a href='mailto:llopezk@unal.edu.co'>Liliana Lopez-Kleine</a></li><li>contact London: <a href='mailto:thibautjombart@gmail.com'>Thibaut Jombart</a></ul></p>"
+
+  [[params.mission.item]]
+    weight = 5
+    name = "scholarships"
+    title = "Scholarships"
+    subtitle = "If you need financial support for travel and accommodation to attend the course, you can apply to a scholarship for this course. See the relevant section in the registration form (see 'register' section)."
+    description = ""
+
+
 
 # Services section
 [params.services]
