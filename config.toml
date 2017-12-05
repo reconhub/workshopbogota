@@ -108,7 +108,7 @@ title = "Epidemics analysis short course"
  [[params.services.item]]
     icon = ""
     title = "Practical 1"
-    description = "<p><b>Monday 11/12/2017 15:00<br>Statistics Department UNAL, room 208</b><p> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim2, earlyR, projections</i></p>"
+    description = "<p><b>Monday 11/12/2017 15:00<br>Statistics Department UNAL, room 208</b><p> Estimation of key delays, doubling time and transmissibility, short-term forecasting. R packages:<i> incidence, distcrete, epitrix, EpiEstim, earlyR, projections</i></p>"
 
   [[params.services.item]]
     icon = ""
